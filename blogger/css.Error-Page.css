@@ -1,9 +1,0 @@
-* Error Page
-* ===================== */
-.error{text-align:center;position:absolute;top:-webkit-calc(50% - 137.5px);top:calc(50% - 137.5px);left:-webkit-calc(50% - 180px);left:calc(50% - 180px)}
-.fa-bolt{background-color:#2d475f;font-size:80px!important;width:100px;height:100px;-webkit-border-radius:100%;border-radius:100%;padding:10px;color:#FFF}
-.error span{display:block;font-family:blogfont,AltFont;font-size:40px;margin-top:20px;color:#2d475f;font-weight:700}
-.error p{font-family:blogfont,AltFont;font-size:22px;color:#484848}
-.error a{background-color:#eeeeee;color:#555555;font-family:blogfont,AltFont;margin:10px auto;padding:10px 20px;display:block;-webkit-border-radius:3px;border-radius:3px;width:170px;font-size:19px}
-.error a:hover{background-color:#2d475f;color:#fff}
-/* =====================
