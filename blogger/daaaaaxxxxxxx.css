@@ -1,0 +1,8 @@
+.scroll{opacity:0}
+.Scroll-Title{color:#24292e;vertical-align:top;padding:15px 15px 15px 0;display:inline-block}
+.Scroll-Title:hover{color:#34d058;text-decoration:underline}
+.Scroll-Title:before{content:"\f0a5";color:#24292e;width:30px;text-align:center;display:inline-block;font-family:FontAwesome;margin-top:-8px;font-size:20px;-webkit-transition:.3s ease-out;-o-transition:.3s ease-out;transition:.3s ease-out}
+.rtl .Scroll-Title:before{margin-left:10px;}
+.ltr .Scroll-Title:before{margin-right:10px;}
+.rtl .js-marquee-wrapper{direction:rtl}
+#HTML101,#HTML102{display:none}
