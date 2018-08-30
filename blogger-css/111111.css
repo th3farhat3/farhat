@@ -1,0 +1,14 @@
+#HeaderMid{padding:20px 30px;display:table;width:100%}
+#Header1{display:table-cell;vertical-align:middle;max-width:100%}
+.rtl #Header1{padding-left:20px;text-align:right}
+.ltr #Header1{padding-right:20px;text-align:left}
+#HTML100{width:728px;display:table-cell;vertical-align:middle;text-align:center}
+.blog-title{font-family:blogfont,AltFont;font-size:29px;font-weight:700;color:#242526}
+.blog-desc{font-family:blogfont,AltFont;font-size:14px;color:#24292e}
+.wide-header #Header1{display:block!important;width:100%;padding:0}
+.wide-header #Header1 a,.wide-header #Header1 img{display:block}
+.wide-header #HeaderMid{padding:0 0 20px}
+.wide-header header > .wrap:first-of-type{overflow:hidden}
+.wide-header #Header1_headerimg{width:100%;margin:0 auto 20px}
+.wide-header #HTML100{display:block;width:100%;text-align:center}
+.wide-header #HTML100 ins,.wide-header #HTML100 iframe{max-width:100%}
