@@ -1,0 +1,77 @@
+#HTML140{display:inline}
+.subscription{text-align:center}
+#FollowByEmail1{display:inline-block;width:290px}
+#f-row{width:100%;clear:both;padding:20px 30px;height:130px;position:relative;    text-align: center;}
+.f-row-color{background-color:#24292e}
+#f-row .subscribe:hover{background-color:#1b53d4;color:#ffffff}
+/* ================== Copyrights ================== */
+#copyrights{min-height:50px;padding:10px 30px;border-top:1px solid #24292e}
+.copy-color{background-color:#24292e;overflow:hidden}
+.c-site a:hover{color:#34d058!important}
+.rtl #HTML110 .c-site{margin-left:30px;float:right;margin-top:2px}
+.ltr #HTML110 .c-site{margin-right:30px;float:left;margin-top:2px}
+/* ================== Social Sites ================== */
+.rtl #LinkList104{float:left}
+.ltr #LinkList104{float:right}
+#LinkList104 li a{background-color:#24292e;color:#dddddd;width:30px;height:30px;text-align:center;padding-top:7px;border-radius:100%}
+#LinkList104 li{vertical-align:top;display:inline-block}
+#LinkList104 li a:hover{color:#FFF}
+/* ================== Popular Posts ================== */
+.popular-posts li{margin-bottom:10px;padding-bottom:10px}
+.tinyPop .item-thumbnail{width:72px;height:72px}
+.popular-posts:not(.tinyPop) .item-thumbnail{margin-bottom:5px}
+.rtl .tinyPop .item-thumbnail{float:right;margin-left:10px;border: 3px solid #e0e0e0; border-radius: 50px;}
+.ltr .tinyPop .item-thumbnail{float:left;margin-right:10px}
+aside .popular-posts li{border-bottom:1px dotted #dddddd}
+footer .popular-posts li{border-bottom:1px dotted #24292e}
+.popular-posts li:last-of-type{margin-bottom:0;border-bottom:none;padding-bottom:0}
+.item-thumbnail{width:99%;height:130px;display:block;overflow:hidden;border:5px solid transparent}
+.rtl .item-thumbnail{margin-right:1px}
+.ltr .item-thumbnail{margin-left:1px}
+aside .item-thumbnail{outline:0px solid #dddddd}
+footer .item-thumbnail{outline:1px solid #24292e}
+.item-thumbnail img{width:100%;height:100%;border-radius: 50px;}
+.item-thumbnail span{width:100%;height:100%;background-size:cover!important;background-position:center center!important;display:block}
+.popular-posts li:hover span{-webkit-transform:scale(1.1);transform:scale(1.1);opacity:.7!important}
+aside .popular-posts a{color:#0e0e0e}
+footer .popular-posts a{color:#aaaaaa}
+aside .item-title a:hover{color:#34d058}
+footer .item-title a:hover{color:#34d058}
+.item-thumbnail a{display:inline}
+aside .item-snippet{color:#34d058}
+footer .item-snippet{color:#999999}
+.item-content:first-of-type{margin-top:2px}
+/* ================== SlideShow ================== */
+.slideshow-wrapper{display:inline-block;position:relative;width:100%}
+.slideshow-wrapper:after{content:'';display:block;margin-top:100%}
+.slideshow-spacer{margin:auto}
+.slideshow-container{bottom:0;left:0;position:absolute;right:0;top:0}
+img.gsc-branding-img-noclear{display:inline}
+.slideshow-container img{display:inline}
+/* ================== Labels ================== */
+.rtl .label-size a{text-align:right;padding:10px 20px 10px 50px;}
+.ltr .label-size a{text-align:left;padding:10px 50px 10px 20px;}
+.rtl .label-size span{float:left;margin-left:10px}
+.ltr .label-size span{float:right;margin-right:10px}
+.no-nums{display:inline-block;width:47%;margin-left:1%}
+body .Label .no-nums a{padding:10px 20px;text-align:center}
+.label-size:hover span{color:#FFF}
+.label-size:hover a{background: linear-gradient(to bottom right, #34d058, #28a745);color:#FFF}
+.rtl .Label li span{float:left;}
+.ltr .Label li span{float:right;}
+.rtl .Label li a:before{content:"\f104";padding-left:10px;}
+.ltr .Label li a:before{content:"\f101";padding-right:10px;}
+.Label li:hover span{background: linear-gradient(to bottom right, #34d058, #28a745);color:#fff}
+.rtl .Label li:hover a:before{margin-right:5px}
+.ltr .Label li:hover a:before{margin-left:5px}
+.Label li span:first-child,.Label li span:nth-of-type(2){display:none}
+aside .label-size a{background-color:#dddddd;color:#0e0e0e}
+aside .label-size span{color:#34d058}
+footer .label-size a{background-color:#24292e;color:#aaaaaa}
+footer .label-size span{color:#999999}
+aside .Label li a{border-bottom:1px solid #dddddd;color:#0e0e0e}
+aside .Label li span{background-color:#dddddd;color:#34d058}
+aside .Label li:hover a{color:#34d058;border-bottom:1px solid #34d058}
+footer .Label li a{color:#aaaaaa;border-bottom:1px solid #24292e}
+footer .Label li span{background-color:#24292e;color:#999999}
+footer .Label li:hover a{color:#34d058;border-bottom:1px solid #34d058}
