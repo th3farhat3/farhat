@@ -1,0 +1,6 @@
+aside .widget{margin-bottom:20px}
+aside .widget h2{background: #fbfbfb;font-family:BlogFont ,AltFont;margin-bottom:10px;background-color:#ffffff;color:#0e0e0e;font-size:19px}
+.rtl aside .widget h2{border-bottom: 2px solid #34d058;border-radius: 19px;border-top:2px solid #34d058;text-align: center;padding:10px 0px 10px 0;}
+.rtl aside .widget h2:before {content: "\f21d"; font-family: fontawesome; display: inline-block; vertical-align: top; color: #34d058; -webkit-transition: .3s ease-out; -o-transition: .3s ease-out; transition: .3s ease-out;padding: 0px 0px 0px 12px;}
+.ltr aside .widget h2{border-left:5px solid #34d058;padding:10px 0px 10px 20px;}
+aside .widget-content{overflow:hidden}
