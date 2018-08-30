@@ -1,0 +1,20 @@
+#BlogArchive1_ArchiveMenu{width:100%;padding:10px;font-family:BlogFont,AltFont;outline:none}
+#blog-pager{overflow:hidden;-webkit-border-radius:2px;border-radius:2px;width:-webkit-calc((100% - 200px) - 20px);width:calc((100% - 200px) - 20px)}
+.rtl #blog-pager{float:right;margin-right:20px}
+.ltr #blog-pager{float:left;margin-left:20px}
+div#blog-pager.pagin-top{float:none;width:100%;clear:both;margin-bottom:20px}
+.inav:before,.inav p,.inav span{color:#ddd!important}
+.blog-pager-older-link,.blog-pager-newer-link{width:50%;vertical-align:top;line-height:normal}
+.inav{cursor:not-allowed}
+.blog-pager-older-link{float:left;text-align:left;padding-right:10px}
+.blog-pager-newer-link{float:right;text-align:right;padding-left:10px}
+.blog-pager-newer-link p,.blog-pager-older-link p{font-family:BlogFont,AltFont;color:#999;font-size:16px;white-space:nowrap;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;font-weight:bold}
+.blog-pager-newer-link span,.blog-pager-older-link span{font-family:BlogFont,AltFont;color:#ccc;font-size:13px;display:inline-block;vertical-align:top;margin-top:6px}
+.blog-pager-newer-link:before,.blog-pager-older-link:before{width:40px;height:50px;color:#eee;font-family:fontawesome;font-size:50px;-webkit-transition:.3s ease-out;-o-transition:.3s ease-out;transition:.3s ease-out}
+.blog-pager-newer-link:before{content:"\f101";float:right;text-align:right}
+.blog-pager-older-link:before{content:"\f104";float:left;text-align:left}
+#blog-pager a:hover p{color:#777777}
+.item #blog-pager a:hover span{color:#aaaaaa}
+#blog-pager a:hover:before{color:#34d058}
+.nav-links-only .older-text,.nav-links-only .newer-text{font-size:16px;font-weight:bold;margin-top:14px}
+.nav-links-only p{margin-top:-5px}
