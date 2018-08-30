@@ -1,0 +1,11 @@
+/* ====== Adblock  ====== */
+#unblocker{position:fixed;top:0;left:0;width:100%;height:100%;background-color:#fff;opacity:.98;display:block;z-index:9999;overflow:hidden}
+#unblocker p{color:#000;text-align:center;margin: auto;font-size:1.5rem;max-width:750px;display:table;line-height:1.5;margin-top: 15%;font-family: blogfont,altfont}
+#unblocker p:before{content:'\f023';font-family:fontawesome;background:#34d058;color:#fff;text-align:center;display:block;padding:0;width:2em;height:2em;line-height:2em;font-size:2.5rem;clear:both;border-radius:100%;margin:0 auto 3%;font-weight:normal;box-shadow:0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)}
+#unblocker p:hover:before{content:'\f13e'}
+#unblocker a {text-align: center;display: table;margin: 15px auto;background: linear-gradient(to bottom right, #34d058, #28a745);padding: 10px;color: #fff;box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);font-family: blogfont,altfont}
+::-webkit-scrollbar-thumb{background:#34d058}
+::-webkit-scrollbar{width:10px;height:9px;background:#dcdcdc}
+textarea#tarea {
+    font-size: 11px;
+}
