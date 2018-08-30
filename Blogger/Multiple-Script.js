@@ -1,1 +1,0 @@
-$(window).scroll(function(){$(".RecentThumb span,.index-thumb span").each(function(){$(window).outerHeight()+$(window).scrollTop()>$(this).offset().top&&$(this).not(".rendered")&&($(this).addClass("rendered"),$(this).attr("style",$(this).attr("data-style")),$(this).removeAttr("data-style"))})});
