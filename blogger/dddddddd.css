@@ -1,0 +1,59 @@
+.intro{overflow:hidden;display:none}
+.Intro-Label{min-height:150px}
+.intro[data-slides='3'] .Intro-Label:hover .Intro-Thumb{-webkit-transform:translate(0,-70px);-ms-transform:translate(0,-70px);transform:translate(0,-70px)}
+.intro[data-slides='3'] .Intro-Details{position:absolute;bottom:-20px;padding:20px;width:100%;background: linear-gradient(to bottom right, #34d058, #28a745);height:73px}
+.rtl .intro[data-slides='3'] .Intro-Details{right:0;text-align:right;}
+.ltr .intro[data-slides='3'] .Intro-Details{left:0;text-align:left;}
+.intro[data-slides='3'] .Intro-Label:hover .Intro-Details{bottom:0}
+.intro[data-slides='3'] .Intro-Title{height:calc(100% - 70px);top:120px;margin-bottom:10px}
+.intro[data-slides='3'] .Intro-Label:hover .Intro-Title{top:0;opacity:1}
+.rtl .intro[data-slides='3'] .Intro-Label .ReadMore{left:20px;}
+.ltr .intro[data-slides='3'] .Intro-Label .ReadMore{right:20px;}
+.intro[data-slides='3'] .Intro-Label:hover .ReadMore{bottom:15px}
+.intro[data-slides='3'] .Intro-Label .ReadMore:hover{background: linear-gradient(to bottom right, #34d058, #28a745);color:#34d058}
+.intro[data-slides='1'] .Intro-Title{bottom:20px;-webkit-border-radius:3px;border-radius:3px;opacity:1;width:auto}
+.rtl .intro[data-slides='1'] .Intro-Title{right:30px;}
+.ltr .intro[data-slides='1'] .Intro-Title{left:30px;}
+.intro[data-slides='1'] .Intro-Label{height:300px;margin-bottom:0}
+.intro[data-slides='1'] .Intro-Thumb{height:auto;min-height:100%;position:relative;top:0}
+.intro[data-slides='1'] .Intro-Details,.intro[data-slides='1'] .ReadMore{display:none}
+.intro[data-slides='1'] .owl-item{padding:0}
+.intro[data-slides='1'] .Intro-Cate{left:20px}
+.intro[data-slides='1'] .Intro-Label:after{right:20px}
+.intro[data-slides='4'] .Intro-Title{max-height:100%;bottom:-100%}
+.intro[data-slides='4'] .Intro-Label:hover .Intro-Title{bottom:0;opacity:1}
+.intro[data-slides='4'] .Intro-Details,.intro[data-slides='4'] .ReadMore{display:none}
+.intro .owl-wrapper,.intro .owl-wrapper-outer{height:100%}
+#int-two{margin:20px 30px 0}
+.Intro-Label{width:100%;overflow:hidden;float:right;height:100%;position:relative;-webkit-border-radius:3px;border-radius:3px}
+.rtl .Intro-Label{direction:rtl;}
+.Intro-Thumb{width:100%;height:100%;position:relative;z-index:2}
+.Intro-Label:hover .Intro-Cate,.Intro-Label:hover:after{opacity:0}
+.rtl .Intro-Date, .rtl .Intro-Author{margin-left:20px;}
+.ltr .Intro-Date, .ltr .Intro-Author{margin-right:20px;}
+.rtl .Intro-Date:before, .rtl .Intro-Author:before{margin-left:5px}
+.ltr .Intro-Date:before, .ltr .Intro-Author:before{margin-right:5px}
+.Intro-Date{margin-bottom:10px}
+.Intro-Date:before{content:"\f0ac"}
+.Intro-Author:before{content:"\f007"}
+.Intro-Date:hover,a.Intro-Author:hover{text-decoration:underline}
+#HTML102 .owl-nav{position:absolute;top:-webkit-calc(50% - 30px);top:calc(50% - 30px);left:0;width:100%}
+#HTML102 .owl-next{right:-50px}
+#HTML102 .owl-prev{left:-50px}
+#HTML102 .owl-carousel:hover .owl-prev{left:20px;opacity:.9}
+#HTML102 .owl-carousel:hover .owl-next{right:20px;opacity:.9}
+.I-toggle i{border:1px solid #dddddd;width:70px;text-align:center;-webkit-border-radius:100px;border-radius:100px;background-color:#ffffff;display:block;margin:-10px auto 0;color:#dddddd;cursor:pointer}
+.I-toggle{display:none;border-top:0px dashed #dddddd;margin:20px 30px 10px}
+.I-toggle i:hover{background-color:#dddddd;color:#ffffff;border:1px solid #ffffff}
+#HTML102{min-height:160px;margin-bottom:20px;position:relative;direction:ltr!important}
+.r-loading{position:absolute;top:-webkit-calc(50% - 31px);top:calc(50% - 31px);left:0;width:100%;text-align:center}
+#HTML101{margin:20px 30px;overflow:hidden;direction:ltr!important}
+.rtl #HTML101 h2.title{float:right}
+.ltr #HTML101 h2.title{float:left}
+#HTML101 h2.title:after{content:"";border-top:26px solid transparent;border-bottom:26px solid transparent;position:absolute;top:0;-webkit-transition:.3s ease-out;-o-transition:.3s ease-out;transition:.3s ease-out;z-index:2}
+.rtl #HTML101 h2.title:after{border-right:35px solid #34d058;left:-10px;border-radius: 200px;}
+.ltr #HTML101 h2.title:after{border-left:35px solid #34d058;right:-10px;}
+.rtl #HTML101:hover h2.title:after{left:-15px}
+.ltr #HTML101:hover h2.title:after{right:-15px}
+.rtl .NTick{border-left:5px solid #34d058}
+.ltr .NTick{border-right:10px solid #34d058}
